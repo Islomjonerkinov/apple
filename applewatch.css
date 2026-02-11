@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: #f5f5f7;
+    /* padding: 10px 0; */
+    padding-block: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+
+.learnmore {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 11px 21px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.buy {
+    background-color: white;
+    color: #0066CC;
+    border: 1px solid #0066CC;
+    padding: 11px 21px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+.wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:top;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+    gap: 10px;
+    font-size: 20px;
+}
+.button{
+    gap: 10px;
+    display: flex;
+}
+.se{
+    width: 100%;
+    height: 115vh;
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/se-case-unselect-gallery-1-202509?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=Rmt2NDRBcDRCNVhOcFJTSzZLRU92WlVTRWk4UllCemZya05RQUd4OC9lSkRKK1M5VWhPZzlPSGZkak9OazNSRlNuK09xL29WL08vZ1AwVG41NEZrbXdJV0xTM2p6S1ZoZUlKQTRLMjR1T0ltMmcrMk9qU0hGcW1QOFlDVk9HNGo)no-repeat center center / cover;
+}
+.series{
+    width: 100%;
+    height: 110vh;
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/s11-case-unselect-gallery-1-202509?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=WldDSmZlQ1ladGVha0lMWUJJK2M4ZHlVRllKam5abHNZRGludXlMbytKNUs0VDVpelJQc3lnS0NUUk44L0hxRlBPMVJocHRGWWdEaGFBbE5iRklMb1V1bEhkTE9wTm5MUHB5UTNxanYrU1FLWlhDb1MwbzRvVW12NWFVYzREWFg) no-repeat center center / cover;
+}
+.ultra{
+    width: 100%;
+    height: 105vh;
+    background: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ultra-case-unselect-gallery-1-202509?wid=5120&hei=3280&fmt=p-jpg&qlt=80&.v=aTVJSEliNW9jb25zalBlTm16VmMxcWpkNHRJWDMzcTg3NWRxV0pydTcvTDMzdnJvTzlKOHoyemwyR2RKOW9BOXc2NytHaDA2aFdROEtrekNxcXV6T3E4VWNsNGRCR0dHb3VTRkZDRmRQSVFZa2dhcFVFVEVDWm44UFJ4Y1p6RU4) no-repeat center center / cover;
+}
